@@ -1,0 +1,9 @@
+E:\Vivek\Project\ContactMangement\Core\CM.Interface.Business\bin\Debug\CM.Interface.Business.dll
+E:\Vivek\Project\ContactMangement\Core\CM.Interface.Business\bin\Debug\CM.Interface.Business.pdb
+E:\Vivek\Project\ContactMangement\Core\CM.Interface.Business\bin\Debug\CM.Models.dll
+E:\Vivek\Project\ContactMangement\Core\CM.Interface.Business\bin\Debug\CM.Models.pdb
+E:\Vivek\Project\ContactMangement\Core\CM.Interface.Business\obj\Debug\CM.Interface.Business.csprojResolveAssemblyReference.cache
+E:\Vivek\Project\ContactMangement\Core\CM.Interface.Business\obj\Debug\CM.Interface.Business.dll
+E:\Vivek\Project\ContactMangement\Core\CM.Interface.Business\obj\Debug\CM.Interface.Business.pdb
+E:\Vivek\Project\ContactMangement\Core\CM.Interface.Business\bin\Debug\Newtonsoft.Json.dll
+E:\Vivek\Project\ContactMangement\Core\CM.Interface.Business\bin\Debug\Newtonsoft.Json.xml

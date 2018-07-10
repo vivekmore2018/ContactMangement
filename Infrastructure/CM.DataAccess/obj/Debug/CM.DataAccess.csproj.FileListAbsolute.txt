@@ -1,0 +1,11 @@
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\CM.DataAccess.dll
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\CM.DataAccess.pdb
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\CM.Interface.DataAccess.dll
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\CM.Models.dll
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\CM.Interface.DataAccess.pdb
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\CM.Models.pdb
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.DataAccess\obj\Debug\CM.DataAccess.csprojResolveAssemblyReference.cache
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.DataAccess\obj\Debug\CM.DataAccess.dll
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.DataAccess\obj\Debug\CM.DataAccess.pdb
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\Dapper.dll
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\Dapper.xml

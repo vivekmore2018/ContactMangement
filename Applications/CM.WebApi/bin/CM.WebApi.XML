@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CM.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:CM.WebApi.Controllers.ContactController.GetContacts">
+            <summary>  
+            Get All Contact Details  
+            </summary>  
+        </member>
+        <member name="M:CM.WebApi.Controllers.ContactController.GetContact(System.Int32)">
+            <summary>
+            Get Single Contact if found
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.WebApi.Controllers.ContactController.CreateContact(CM.Models.Contact)">
+            <summary>  
+            Create Contact to database
+            </summary>  
+        </member>
+        <member name="M:CM.WebApi.Controllers.ContactController.UpdateContact(CM.Models.Contact)">
+            <summary>  
+            Create Contact to database
+            </summary>  
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,11 @@
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.Business\bin\Debug\CM.Business.dll
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.Business\bin\Debug\CM.Business.pdb
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.Business\bin\Debug\CM.Interface.Business.dll
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.Business\bin\Debug\CM.Interface.DataAccess.dll
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.Business\bin\Debug\CM.Models.dll
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.Business\bin\Debug\CM.Interface.Business.pdb
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.Business\bin\Debug\CM.Interface.DataAccess.pdb
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.Business\bin\Debug\CM.Models.pdb
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.Business\obj\Debug\CM.Business.csprojResolveAssemblyReference.cache
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.Business\obj\Debug\CM.Business.dll
+E:\Vivek\Project\ContactMangement\Infrastructure\CM.Business\obj\Debug\CM.Business.pdb

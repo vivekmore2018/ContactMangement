@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Managment</title>
+	<meta charset="utf-8" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="js/MyApp.js"></script>
+    <script src="js/ContactApiService.js"></script>
+</head>
+<body>
+    <div ng-app="MyApp" class="container" ng-controller="Contact" >
+        <form name="contactForm" ng-submit="submitForm(contactForm.$valid,item)" novalidate>
+            <table class="table table-striped table-bordered">
+                <tr>
+                    <td align="center" colspan="2">Contact Management</td>
+                    
+                </tr>
+                <tr>
+                    <td>First Name</td>
+                    <td>
+                        <input type="text" name="fname" class="form-control" ng-model="item.Fname" ng-required="true">
+                        <p ng-if="!contactForm.fname.$valid" class="text-danger">The input field cannot be empty</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td>
+                        <input type="text" class="form-control" ng-model="item.Lname" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>EmailID</td>
+                    <td>
+                        <input type="email" name="email" class="form-control" ng-model="item.email" ng-required="true" />
+                        <p ng-if="!contactForm.email.$invalid" class="text-danger">The input field cannot be empty</p>
+                        <p ng-show="contactForm.email.$invalid && !contactForm.email.$pristine" class="text-danger">Enter a valid email.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td>
+                        <input type="text" class="form-control" ng-model="item.phoneNumber" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td align="left">
+                        <input type="checkbox" class="form-control" ng-model="item.Status" ng-checked="item.Status" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-right" colspan="2">
+                        <button type="submit" class="btn btn-primary">Add</button>
+                        <!--<button ng-click="addItem(item)" class="btn btn-primary">
+                            Add
+                        </button>-->
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>EmailID</th>
+                    <th>Phone</th>
+                    <th>Status</th>
+                    <th>Edit</th> 
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in items">
+                    <td>
+                        <span ng-hide="editMode">{{item.Id}}</span>
+                        <input type="text" ng-show="editMode" ng-model="item.Id" />
+                    </td>
+                    <td>
+                        <span ng-hide="editMode">{{item.FName}}</span>
+                        <input type="text" ng-show="editMode" ng-model="item.FName" />
+                    </td>
+                    <td>
+                        <span ng-hide="editMode">{{item.LName}}</span>
+                        <input type="text" ng-show="editMode" ng-model="item.LName" />
+                    </td>
+                    <td>
+                        <span ng-hide="editMode">{{item.Email}}</span>
+                        <input type="text" ng-show="editMode" ng-model="item.Email" />
+                    </td>
+                    <td>
+                        <span ng-hide="editMode">{{item.PhoneNumber}}</span>
+                        <input type="text" ng-show="editMode" ng-model="item.PhoneNumber" />
+                    </td>
+                    <td>
+                        <span ng-hide="editMode">{{item.Status}}</span>
+                        <input type="checkbox" ng-show="editMode" ng-model="item.Status"   ng-checked="item.Status"/> 
+                    </td>
+                    <td>
+                        <a href="#"  ng-hide="editMode" ng-click="editMode = true; editItem(item.Id)" class="glyphicon glyphicon-edit">Edit</a>
+                        <a  href="#" class="glyphicon glyphicon-saved" ng-show="editMode" ng-click="updateItem(item);editMode = false; ">Update</a>
+                    </td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+E:\Vivek\Project\ContactMangement\Core\CM.Models\bin\Debug\CM.Models.dll
+E:\Vivek\Project\ContactMangement\Core\CM.Models\bin\Debug\CM.Models.pdb
+E:\Vivek\Project\ContactMangement\Core\CM.Models\obj\Debug\CM.Models.dll
+E:\Vivek\Project\ContactMangement\Core\CM.Models\obj\Debug\CM.Models.pdb
+E:\Vivek\Project\ContactMangement\Core\CM.Models\obj\Debug\CM.Models.csprojResolveAssemblyReference.cache
