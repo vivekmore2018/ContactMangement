@@ -22,12 +22,19 @@ ContactMangement/Applications/CM.WebApi/Web.config
 
 
 2) Setting Database
+
 Also run the following query to create database table
+
 /****** Object:  Table [dbo].[cm_contact]  ******/
+
 SET ANSI_NULLS ON
+
 GO
+
 SET QUOTED_IDENTIFIER ON
+
 GO
+
 CREATE TABLE [dbo].[cm_contact](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[FName] [nvarchar](100) NOT NULL,
