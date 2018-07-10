@@ -16,9 +16,9 @@
 Need to change connection string in below path
 
 ContactMangement/Applications/CM.WebApi/Web.config 
-<connectionStrings>
+ <connectionStrings>
     <add connectionString="<your connection string to database"" name="CMconnection" />
-</connectionStrings>
+ </connectionStrings>
 
 
 2) Setting Database
