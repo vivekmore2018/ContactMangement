@@ -1,11 +1,11 @@
-﻿app.service('ContactApiServices', function ($http) {
+﻿app.service('ContactApiServices', function ($http,RESOURCES) {
     this.getAllContacts = function () {
-        return $http.get('http://localhost:59972/api/contact/GetContacts');// Calling the web api here  
+        return $http.get(RESOURCES.CONTACT_MODULE + '/GetContacts');// Calling the web api here  
     };
     this.CreateContact = function (contact) {
-        return $http.post('http://localhost:59972/api/contact/CreateContact',contact);
+        return $http.post(RESOURCES.CONTACT_MODULE +  '/CreateContact', contact);
     };
     this.UpdateContact = function (contact) {
-        return $http.post('http://localhost:59972/api/contact/UpdateContact', contact);
+        return $http.post(RESOURCES.CONTACT_MODULE + '/UpdateContact', contact);
     };
 });

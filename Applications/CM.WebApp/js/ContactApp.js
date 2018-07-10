@@ -6,7 +6,7 @@ app.controller("Contact", function ($scope, ContactApiServices) {
         $scope.items = response.data;
     },
     function (errorResponse) {
-        aler('Some Error in Getting Records.', errorResponse.message);
+        alert('Some Error in Getting Records.', errorResponse.message);
     });
 
     $scope.submitForm = function (isValid, item) {
