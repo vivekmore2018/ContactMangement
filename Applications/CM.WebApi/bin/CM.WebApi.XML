@@ -4,10 +4,19 @@
         <name>CM.WebApi</name>
     </assembly>
     <members>
+        <member name="M:CM.WebApi.Controllers.ContactController.#ctor(CM.Business.ContactManager)">
+            <summary>
+            Constructor injected with depedency of contact Manager BI class
+            </summary>
+            <param name="contactManager"></param>
+        </member>
         <member name="M:CM.WebApi.Controllers.ContactController.GetContacts">
             <summary>  
             Get All Contact Details  
             </summary>  
+            <response code="200">Record found</response>
+            <response code="400">Bad request</response>
+            <response code="404">Not Found</response>
         </member>
         <member name="M:CM.WebApi.Controllers.ContactController.GetContact(System.Int32)">
             <summary>

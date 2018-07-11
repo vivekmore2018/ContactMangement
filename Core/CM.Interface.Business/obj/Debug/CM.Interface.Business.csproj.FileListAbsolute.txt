@@ -7,3 +7,12 @@ E:\Vivek\Project\ContactMangement\Core\CM.Interface.Business\obj\Debug\CM.Interf
 E:\Vivek\Project\ContactMangement\Core\CM.Interface.Business\obj\Debug\CM.Interface.Business.pdb
 E:\Vivek\Project\ContactMangement\Core\CM.Interface.Business\bin\Debug\Newtonsoft.Json.dll
 E:\Vivek\Project\ContactMangement\Core\CM.Interface.Business\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Core\CM.Interface.Business\bin\Debug\CM.Interface.Business.dll
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Core\CM.Interface.Business\bin\Debug\CM.Interface.Business.pdb
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Core\CM.Interface.Business\bin\Debug\CM.Models.dll
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Core\CM.Interface.Business\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Core\CM.Interface.Business\bin\Debug\CM.Models.pdb
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Core\CM.Interface.Business\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Core\CM.Interface.Business\obj\Debug\CM.Interface.Business.csprojResolveAssemblyReference.cache
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Core\CM.Interface.Business\obj\Debug\CM.Interface.Business.dll
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Core\CM.Interface.Business\obj\Debug\CM.Interface.Business.pdb

@@ -9,3 +9,14 @@ E:\Vivek\Project\ContactMangement\Infrastructure\CM.Business\bin\Debug\CM.Models
 E:\Vivek\Project\ContactMangement\Infrastructure\CM.Business\obj\Debug\CM.Business.csprojResolveAssemblyReference.cache
 E:\Vivek\Project\ContactMangement\Infrastructure\CM.Business\obj\Debug\CM.Business.dll
 E:\Vivek\Project\ContactMangement\Infrastructure\CM.Business\obj\Debug\CM.Business.pdb
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.Business\bin\Debug\CM.Business.dll
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.Business\bin\Debug\CM.Business.pdb
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.Business\bin\Debug\CM.Interface.Business.dll
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.Business\bin\Debug\CM.Interface.DataAccess.dll
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.Business\bin\Debug\CM.Models.dll
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.Business\bin\Debug\CM.Interface.Business.pdb
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.Business\bin\Debug\CM.Interface.DataAccess.pdb
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.Business\bin\Debug\CM.Models.pdb
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.Business\obj\Debug\CM.Business.csprojResolveAssemblyReference.cache
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.Business\obj\Debug\CM.Business.dll
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.Business\obj\Debug\CM.Business.pdb

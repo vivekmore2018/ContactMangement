@@ -1,10 +1,9 @@
 ﻿using CM.Business;
 using CM.Models;
-using System;
+using Swashbuckle.Swagger.Annotations;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 
 namespace CM.WebApi.Controllers
@@ -12,7 +11,10 @@ namespace CM.WebApi.Controllers
     public class ContactController : ApiController
     {
         private ContactManager _contactManager;
-
+        /// <summary>
+        /// Constructor injected with depedency of contact Manager BI class
+        /// </summary>
+        /// <param name="contactManager"></param>
         public ContactController(ContactManager contactManager)
         {
             _contactManager = contactManager;
@@ -21,8 +23,12 @@ namespace CM.WebApi.Controllers
         /// <summary>  
         /// Get All Contact Details  
         /// </summary>  
+        /// <response code="200">Record found</response>
+        /// <response code="400">Bad request</response>
+        /// <response code="404">Not Found</response>
         [HttpGet]
         [Route("api/contact/GetContacts")]
+        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(IEnumerable<Contact>))]
         public IHttpActionResult GetContacts()
         {
             var result = _contactManager.GetAll();
@@ -32,7 +38,7 @@ namespace CM.WebApi.Controllers
             }
             else
             {
-                return Ok("No contacts found");
+                return  NotFound();
             }
         }
 
@@ -44,6 +50,9 @@ namespace CM.WebApi.Controllers
         /// <returns></returns>
         [HttpGet]
         [Route("api/contact/GetContact")]
+        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(Contact))]
+        /// <response code="200">return object</response>
+        /// <response code="404">Not Found</response>
         public IHttpActionResult GetContact(int Id)
         {
             var result = _contactManager.GetById(Id);
@@ -53,16 +62,19 @@ namespace CM.WebApi.Controllers
             }
             else
             {
-                return BadRequest("No contact found");
+                return  NotFound();
             }
         }
-        
+
 
         /// <summary>  
         /// Create Contact to database
         /// </summary>  
+        /// <response code="200">Created</response>
+        /// <response code="400">Bad request</response>
         [Route("api/contact/CreateContact")]
         [HttpPost]
+        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(Contact))]
         public IHttpActionResult CreateContact(Contact contact)
         {
             var result = _contactManager.AddContact(contact);
@@ -79,6 +91,8 @@ namespace CM.WebApi.Controllers
         /// <summary>  
         /// Create Contact to database
         /// </summary>  
+        /// <response code="200">Updated</response>
+        /// <response code="400">Bad request</response>
         [Route("api/contact/UpdateContact")]
         [HttpPost]
         public IHttpActionResult UpdateContact([FromBody] Contact contact)

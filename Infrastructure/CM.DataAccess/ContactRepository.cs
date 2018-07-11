@@ -1,9 +1,5 @@
-﻿using CM.DataAccess;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CM.Interface.DataAccess;
 using CM.Models;
 using System.Data;

@@ -9,3 +9,14 @@ E:\Vivek\Project\ContactMangement\Infrastructure\CM.DataAccess\obj\Debug\CM.Data
 E:\Vivek\Project\ContactMangement\Infrastructure\CM.DataAccess\obj\Debug\CM.DataAccess.pdb
 E:\Vivek\Project\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\Dapper.dll
 E:\Vivek\Project\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\Dapper.xml
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\CM.DataAccess.dll
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\CM.DataAccess.pdb
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\CM.Interface.DataAccess.dll
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\CM.Models.dll
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\Dapper.dll
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\CM.Interface.DataAccess.pdb
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\CM.Models.pdb
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.DataAccess\bin\Debug\Dapper.xml
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.DataAccess\obj\Debug\CM.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.DataAccess\obj\Debug\CM.DataAccess.dll
+C:\Users\Vivek\Documents\GitHub\ContactMangement\Infrastructure\CM.DataAccess\obj\Debug\CM.DataAccess.pdb
