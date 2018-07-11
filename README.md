@@ -9,6 +9,7 @@
 5) Unity.5.8.6
 6) Swashbuckle.5.6.0 for documentation
 7) Moq.4.8.3 for Unit testing
+8) Visual Studio 2015 for development
 
 
 # Project Setup Steps
