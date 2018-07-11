@@ -16,18 +16,25 @@
 Need to change connection string in below path
 
 ContactMangement/Applications/CM.WebApi/Web.config 
-<connectionStrings>
+ <connectionStrings>
     <add connectionString="<your connection string to database"" name="CMconnection" />
-</connectionStrings>
+ </connectionStrings>
 
 
 2) Setting Database
+
 Also run the following query to create database table
+
 /****** Object:  Table [dbo].[cm_contact]  ******/
+
 SET ANSI_NULLS ON
+
 GO
+
 SET QUOTED_IDENTIFIER ON
+
 GO
+
 CREATE TABLE [dbo].[cm_contact](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[FName] [nvarchar](100) NOT NULL,
