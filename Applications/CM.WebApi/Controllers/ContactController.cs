@@ -94,7 +94,7 @@ namespace CM.WebApi.Controllers
         /// <response code="200">Updated</response>
         /// <response code="400">Bad request</response>
         [Route("api/contact/UpdateContact")]
-        [HttpPost]
+        [HttpPut]
         public IHttpActionResult UpdateContact([FromBody] Contact contact)
         {
             var result = _contactManager.Update(contact);

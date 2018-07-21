@@ -29,11 +29,15 @@
             <summary>  
             Create Contact to database
             </summary>  
+            <response code="200">Created</response>
+            <response code="400">Bad request</response>
         </member>
         <member name="M:CM.WebApi.Controllers.ContactController.UpdateContact(CM.Models.Contact)">
             <summary>  
             Create Contact to database
             </summary>  
+            <response code="200">Updated</response>
+            <response code="400">Bad request</response>
         </member>
     </members>
 </doc>
