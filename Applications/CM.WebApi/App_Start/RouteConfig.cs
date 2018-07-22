@@ -3,8 +3,15 @@ using System.Web.Routing;
 
 namespace CM.WebApi
 {
+    /// <summary>
+    /// Custom route config
+    /// </summary>
     public class RouteConfig
     {
+        /// <summary>
+        /// Register custom route for application
+        /// </summary>
+        /// <param name="routes"></param>
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");

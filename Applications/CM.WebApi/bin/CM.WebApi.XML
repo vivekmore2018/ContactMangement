@@ -4,6 +4,91 @@
         <name>CM.WebApi</name>
     </assembly>
     <members>
+        <member name="T:CM.WebApi.BundleConfig">
+            <summary>
+            Bundle config for css and javascript
+            </summary>
+        </member>
+        <member name="M:CM.WebApi.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)">
+            <summary>
+            Register bundle for css and javascript
+            </summary>
+            <param name="bundles"></param>
+        </member>
+        <member name="T:CM.WebApi.FilterConfig">
+            <summary>
+            Global filter for application
+            </summary>
+        </member>
+        <member name="M:CM.WebApi.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)">
+            <summary>
+            Register custom filter
+            </summary>
+            <param name="filters"></param>
+        </member>
+        <member name="T:CM.WebApi.RouteConfig">
+            <summary>
+            Custom route config
+            </summary>
+        </member>
+        <member name="M:CM.WebApi.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)">
+            <summary>
+            Register custom route for application
+            </summary>
+            <param name="routes"></param>
+        </member>
+        <member name="T:CM.WebApi.ServiceResolver">
+            <summary>
+            Custom Service Resolver
+            </summary>
+        </member>
+        <member name="M:CM.WebApi.ServiceResolver.#ctor(Unity.IUnityContainer)">
+            <summary>
+            Custom service resolver constructor 
+            </summary>
+            <param name="container">Dependency container </param>
+        </member>
+        <member name="M:CM.WebApi.ServiceResolver.BeginScope">
+            <summary>
+            If multiple container needed then register here
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CM.WebApi.ServiceResolver.Dispose">
+            <summary>
+            Disponse object
+            </summary>
+        </member>
+        <member name="M:CM.WebApi.ServiceResolver.GetService(System.Type)">
+            <summary>
+            Manually resove service
+            </summary>
+            <param name="serviceType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.WebApi.ServiceResolver.GetServices(System.Type)">
+            <summary>
+            Resolve service type
+            </summary>
+            <param name="serviceType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.WebApi.ServiceResolver.Dispose(System.Boolean)">
+            <summary>
+            Dispose container
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="T:CM.WebApi.SwaggerConfig">
+            <summary>
+            Configure swagger configuration
+            </summary>
+        </member>
+        <member name="M:CM.WebApi.SwaggerConfig.Register">
+            <summary>
+            Register swagger to assembly
+            </summary>
+        </member>
         <member name="M:CM.WebApi.Controllers.ContactController.#ctor(CM.Business.ContactManager)">
             <summary>
             Constructor injected with depedency of contact Manager BI class
@@ -38,6 +123,15 @@
             </summary>  
             <response code="200">Updated</response>
             <response code="400">Bad request</response>
+        </member>
+        <member name="M:CM.WebApi.Controllers.ContactController.DeleteContact(System.Int32)">
+            <summary>
+            Delete contact by Id
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+            <response code="200">Contact deleted</response>
+            <response code="404">Not found</response>
         </member>
     </members>
 </doc>

@@ -99,13 +99,35 @@ namespace CM.WebApi.Controllers
         {
             var result = _contactManager.Update(contact);
             if (result.Status == Interface.Business.Status.Success)
-            {
-                return Ok();
+            {               
+                return Ok(contact.Id);
             }
             else
             {
                 return BadRequest(string.Join(";", result.Errors));
             }
         }
+        /// <summary>
+        /// Delete contact by Id
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <returns></returns>
+        /// <response code="200">Contact deleted</response>
+        /// <response code="404">Not found</response>
+        [Route("api/contact/DeleteContact")]
+        [HttpDelete]
+        public IHttpActionResult DeleteContact(int Id)
+        {
+            var result = _contactManager.DeleteContact(Id);
+            if (result > 0)
+            {
+                return Ok();
+            }
+            else
+            {
+                return NotFound();
+            }
+        }
+
     }
 }

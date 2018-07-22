@@ -27,11 +27,11 @@ namespace CM.Business
         {
             BusinessResult<Contact> result = new BusinessResult<Contact>();
             bool isEmail = Regex.IsMatch(contact.Email, EmailRegex, RegexOptions.IgnoreCase);
-            if(!isEmail)
+            if (!isEmail)
             {
                 result.Errors.Add("Invalid email address");
-            }            
-            if (result.Errors.Count==0 && _contactRepository.Update(contact) > 0)
+            }
+            if (result.Errors.Count == 0 && _contactRepository.Update(contact) > 0)
             {
                 result.Value = contact;
             }
@@ -44,7 +44,7 @@ namespace CM.Business
         public BusinessResult<Contact> AddContact(Contact contact)
         {
             BusinessResult<Contact> result = new BusinessResult<Contact>();
-            if(contact == null)
+            if (contact == null)
             {
                 result.Errors.Add("Invalid contact object");
                 return result;
@@ -54,17 +54,22 @@ namespace CM.Business
             {
                 result.Errors.Add("Invalid email address");
             }
-            if (result.Errors.Count == 0 )
+            if (result.Errors.Count == 0)
             {
-                var id =_contactRepository.AddContact(contact);
+                var id = _contactRepository.AddContact(contact);
                 if (id > 0)
                 {
-                   contact.Id = id;
+                    contact.Id = id;
                     result.Value = contact;
                 }
-               
+
             }
             return result;
+        }
+
+        public int DeleteContact(int id)
+        {
+           return _contactRepository.DeleteContact(id);
         }
     }
 }

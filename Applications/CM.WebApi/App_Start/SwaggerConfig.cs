@@ -7,8 +7,14 @@ using Swashbuckle.Application;
 
 namespace CM.WebApi
 {
+    /// <summary>
+    /// Configure swagger configuration
+    /// </summary>
     public class SwaggerConfig
     {
+        /// <summary>
+        /// Register swagger to assembly
+        /// </summary>
         public static void Register()
         {
             var thisAssembly = typeof(SwaggerConfig).Assembly;

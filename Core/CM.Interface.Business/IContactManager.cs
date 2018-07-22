@@ -10,5 +10,6 @@ namespace CM.Interface.Business
         BusinessResult<Contact> Update(Contact contact);
         int ChangeStatus(int id, bool status);
         BusinessResult<Contact> AddContact(Contact contact);
+        int DeleteContact(int id);
     }
 }

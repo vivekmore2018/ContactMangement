@@ -81,5 +81,11 @@ namespace CM.DataAccess
                 Status = contact.Status ? 'Y' : 'N'
             }).Single();
         }
+        public int DeleteContact(int id)
+        {
+            string deleteQuery = @"
+                DELETE from [dbo].[cm_contact] WHERE [Id]= @Id ";
+            return _cn.Execute(deleteQuery, new { id = id });
+        }
     }
 }
